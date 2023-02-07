@@ -1,0 +1,37 @@
+{% extends 'index.html' %} {% block content %}
+<h1>Bienvenido, {{user.username}}</h1>
+<h5>Usuario {{user.first_name}} {{user.last_name}} {{user.email}}</h5>
+<div class="usuario_inmueble">
+  <a class="btn btn-secondary text-white" href="{% url 'update_profile' %}"
+    >Editar Perfil de Usuario</a
+  >
+  <a class="btn btn-secondary text-white" href="{%url 'new_inmueble_url'%}"
+    >Nuevo Inmueble</a
+  >
+</div>
+
+{% if utipo == 1 %}
+<h5>Tipo de Usuario: Arrendador</h5>
+<h3>Lista de Propiedades publicadas</h3>
+{% for product in inmuebles %}
+<tr>
+  <td>
+    <h5>{{ product.nombre_inmueble}}</h5>
+    <a
+      class="btn btn-success"
+      href="/update_inmueble?id_inmueble={{ product.id }}"
+      >Editar</a
+    >
+    <a
+      class="btn btn-success"
+      href="/eliminar_inmueble?id_inmueble={{ product.id}}"
+      >Borrar</a
+    >
+  </td>
+</tr>
+{% endfor%} {% endif %}
+<div class="retorno">
+  <a class="btn btn-success" href="{% url 'home' %}">Home</a>
+  <a class="btn btn-success" href="{% url 'logout' %}">Logout</a>
+</div>
+{% endblock content %}

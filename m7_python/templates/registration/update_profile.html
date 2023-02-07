@@ -1,0 +1,14 @@
+{% extends 'index.html' %} {% load crispy_forms_tags %} {% block content %}
+<div class="contenedor">
+  <h1 class="h1-register">Actualizar datos</h1>
+
+  <form method="POST" class="formulario col-4 offset-2">
+    {% csrf_token %}
+    <div class="formu">{{ u_form.as_p}}</div>
+    <div class="buttoms col-3 offset-5">
+      <button type="submit" class="btn btn-success">Registrar</button>
+    </div>
+  </form>
+</div>
+
+{% endblock content %}

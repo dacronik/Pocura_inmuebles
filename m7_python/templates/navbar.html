@@ -1,0 +1,44 @@
+{% load static %}
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-lg">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav class="navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img
+          src="{% static 'img/cabina.png' %}"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        />
+        Inm. Pocura
+      </a>
+    </nav>
+    <div class="collapse navbar-collapse" id="navbarNavnav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="{% url 'home' %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Galeria</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

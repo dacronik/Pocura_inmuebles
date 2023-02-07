@@ -1,0 +1,111 @@
+[
+    {
+        "model": "m7_python.inmuebles",
+        "pk": 1,
+        "fields": {
+            "nombre_inmueble":"Casa en Arriendo San Bernardo / Nexxos",
+            "descripcion": "Casa en arriendo de 3 dorm. en San Bernardo Se arrienda casa $ 650.000",
+            "m2_construido": 70,
+            "numero_banos": 3,
+            "direccion": "Los Reclutas 123",
+            "m2_terreno": 90,
+            "numero_est": 1,
+            "id_comuna_id": 333,
+            "id_region_id": 16,
+            "id_tipo_inmueble_id": 1,
+            "id_user_id": 1,
+            "precio":"$ 650.000"
+        }
+    },
+    {
+        "model": "m7_python.inmuebles",
+        "pk": 2,
+        "fields": {
+            "nombre_inmueble":"Departamento en Arriendo en Providencia 2 dormitorios 2 baños / Inmobiliaria Focus E.I.R.L",
+            "descripcion": "Living-comedor - Cocina americana - 2 Dormitorios (Principal en suite y ventanas termopanel) - 2 Baños - $680.000",
+            "m2_construido": 52,
+            "numero_banos": 2,
+            "direccion": "Padre Mariano 356",
+            "m2_terreno": 54,
+            "numero_est": 1,
+            "id_comuna_id": 316,
+            "id_region_id": 16,
+            "id_tipo_inmueble_id": 2,
+            "id_user_id": 1,
+            "precio":"$680.000"
+        }
+    },
+    {
+        "model":"m7_python.inmuebles",
+        "pk": 3,
+        "fields":{
+            "nombre_inmueble":"Parcela en Arriendo en Pirque para Eventos/ Ingevec Inmobiliaria",
+            "descripcion":"cuenta con amplios espacios de esparcimiento, juegos infantiles y piscina temperada, salon de juegos y cocina totalmente equipada - $500.000 Pesos por evento",
+            "m2_construido": 95,
+            "numero_banos": 5,
+            "direccion": "Jorgue Huneuus Matte #378",
+            "m2_terreno": 1800,
+            "numero_est": 50,
+            "id_comuna_id": 328,
+            "id_region_id": 16,
+            "id_tipo_inmueble_id": 3,
+            "id_user_id": 1,
+            "precio":"$500.000"
+        }
+    },
+    {
+        "model":"m7_python.inmuebles",
+        "pk": 4,
+        "fields":{
+            "nombre_inmueble":"Arriendo de Estacionamiento Matucana",
+            "descripcion":"estacionamientos en el centro de la ciudad a modicos precios. $15.000 Pesos la hora ",
+            "m2_construido": 10,
+            "numero_banos": 0,
+            "direccion": "matucana #100",
+            "m2_terreno": 250,
+            "numero_est": 30,
+            "id_comuna_id": 231,
+            "id_region_id": 11,
+            "id_tipo_inmueble_id": 4,
+            "id_user_id": 1,
+            "precio":"$15.000"  
+        }
+    },
+    {
+        "model":"m7_python.inmuebles",
+        "pk": 5,
+        "fields":{
+            "nombre_inmueble":"Arriendo de Taller Mecanico",
+            "descripcion":"se arrienda taller mecanico con pozo para camibio de aceite y scanner industrial para diagnosticos de auto. Precio $ 1.100.000 mil pesos mensuales",
+            "m2_construido": 350,
+            "numero_banos": 2,
+            "direccion": "Av. Picarte #1981",
+            "m2_terreno": 350,
+            "numero_est": 5,
+            "id_comuna_id": 232,
+            "id_region_id": 12,
+            "id_tipo_inmueble_id": 5,
+            "id_user_id": 1,
+            "precio":"$ 1.100.000"  
+        }
+    },
+    {
+        "model":"m7_python.inmuebles",
+        "pk": 6,
+        "fields":{
+            "nombre_inmueble":"Arriendo de Casa",
+            "descripcion":"Se arrienda casa en el centro de la cuidad, con buen acceso a colegios, supermercados y avenidas centrales. precio: $ 500.000 Pesos mensuales, unico dueño",
+            "m2_construido": 150,
+            "numero_banos": 2,
+            "direccion": "Av. Antonio Rendic 6991, Antofagasta",
+            "m2_terreno": 200,
+            "numero_est": 1,
+            "id_comuna_id": 12,
+            "id_region_id": 3,
+            "id_tipo_inmueble_id": 1,
+            "id_user_id": 1,
+            "precio":"$ 500.000"
+        }
+    }
+]
+    

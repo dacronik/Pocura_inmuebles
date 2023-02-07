@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #005FAE;
+}
+.titulos {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.titulo-central {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #FFFFFF;
+    font-style: 400;
+    padding-right: 10px;
+}
+.image-header {
+    height: 100px;
+    width: 100px;
+}
+.bajada {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-style: 400;
+    display: flex;
+}
+.navbar-brand {
+    background: #005FAE;
+}
+.container-fluid{
+    background: #005FAE;
+}
+.navbar {
+    background: #005FAE;
+}
+#navbarNavnav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#navbarNavnav ul li a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.carousel-item img{
+    width: 700px;
+    height: 700px;
+}
+
+#Footer h3 {
+    font-family: 'Great Vibes';
+    font-size: 4em;
+    color: #7600a9;
+    font-weight: 500;
+}
+#Footer a i {
+    text-decoration: none;
+}
+.formulario {
+    margin: 0 auto;   
+}
+.formu {
+    text-align: center;
+    background: #00BFFF;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+.formu label {
+    color: #000000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor h1 {
+    display: flex;
+    justify-content: center;
+}
+.retorno {
+    padding-top: 15px;
+}
+.h1-register{
+    text-align: center;
+}

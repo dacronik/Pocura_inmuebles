@@ -1,0 +1,80 @@
+[
+  {
+    "model": "m7_python.region",
+    "pk": 1,
+    "fields": { "region": "Arica y Parinacota" }
+  },
+  {
+    "model": "m7_python.region",
+    "pk": 2,
+    "fields": { "region": "Tarapac\u00e1" }
+  },
+  {
+    "model": "m7_python.region",
+    "pk": 3,
+    "fields": { "region": "Antofagasta" }
+  },
+  { "model": "m7_python.region", "pk": 4, "fields": { "region": "Atacama" } },
+  { "model": "m7_python.region", "pk": 5, "fields": { "region": "Coquimbo" } },
+  {
+    "model": "m7_python.region",
+    "pk": 6,
+    "fields": { "region": "Valpara\u00edso" }
+  },
+  {
+    "model": "m7_python.region",
+    "pk": 7,
+    "fields": {
+      "region": "regi\u00f3n del Libertador Gral. Bernardo O\u2019Higgins"
+    }
+  },
+  {
+    "model": "m7_python.region",
+    "pk": 8,
+    "fields": { "region": "regi\u00f3n del Maule" }
+  },
+  {
+    "model": "m7_python.region",
+    "pk": 9,
+    "fields": { "region": "regi\u00f3n de \u00d1uble" }
+  },
+  {
+    "model": "m7_python.region",
+    "pk": 10,
+    "fields": { "region": "regi\u00f3n del Biob\u00edo" }
+  },
+  {
+    "model": "m7_python.region",
+    "pk": 11,
+    "fields": { "region": "regi\u00f3n de la Araucan\u00eda" }
+  },
+  {
+    "model": "m7_python.region",
+    "pk": 12,
+    "fields": { "region": "regi\u00f3n de Los r\u00edos" }
+  },
+  {
+    "model": "m7_python.region",
+    "pk": 13,
+    "fields": { "region": "regi\u00f3n de Los Lagos" }
+  },
+  {
+    "model": "m7_python.region",
+    "pk": 14,
+    "fields": {
+      "region": "regi\u00f3n Ais\u00e9n del Gral. Carlos Ib\u00e1\u00f1ez del Campo"
+    }
+  },
+  {
+    "model": "m7_python.region",
+    "pk": 15,
+    "fields": {
+      "region": "regi\u00f3n de Magallanes y de la Ant\u00e1rtica Chilena"
+    }
+  },
+  {
+    "model": "m7_python.region",
+    "pk": 16,
+    "fields": { "region": "regi\u00f3n Metropolitana de Santiago" }
+  }
+]
